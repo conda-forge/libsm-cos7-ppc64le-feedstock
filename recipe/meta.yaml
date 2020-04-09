@@ -22,7 +22,7 @@ source:
     url: {{ url_base }}{{ centos_name }}-devel-{{ version }}-{{ centos_build }}.{{ el }}.{{ arch }}.rpm
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   missing_dso_whitelist:
     - '*'
